@@ -15,10 +15,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://pealot.com/",
+  "start_url": "/",
   "background_color": "#FFFFFF",
-  "display": "standalone",
-  "scope": "https://pealot.com/",
+  "display": "fullscreen",
+  "scope": "/",
   "theme_color": "#C37E08",
   "shortcuts": [
     {
