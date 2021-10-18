@@ -9,38 +9,38 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 const defaultLocations = [
   {
-    id: 'default-helsinki',
+    id: 'default-lausanne',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Lausanne, Suisse',
+      bounds: new LatLngBounds(new LatLng(46.591708, 6.720815), new LatLng(46.504313, 6.560625)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-geneva',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Genève, Suisse',
+      bounds: new LatLngBounds(new LatLng(46.24713292, 6.1835059), new LatLng(46.17425426, 6.09201075)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-Vevey',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'Vevey, Suisse',
+      bounds: new LatLngBounds(new LatLng(46.478264, 6.863417), new LatLng(46.456442, 6.832292)),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-montreux',
     predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      address: 'Montreux, Suisse',
+      bounds: new LatLngBounds(new LatLng(46.44479471, 6.9258398), new LatLng(46.42598576, 6.90212902)),
     },
   },
   {
-    id: 'default-ruka',
+    id: 'default-bern',
     predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'Berne, Suisse',
+      bounds: new LatLngBounds(new LatLng(47.03198956, 7.55109842), new LatLng(46.87388179, 7.34986642)),
     },
   },
 ];

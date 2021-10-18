@@ -85,10 +85,9 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
-        { key: 'other', label: 'Other' },
+        { key: 'monthly_rental', label: 'Location mensuelle' },
+        { key: 'daily_rental', label: 'Location journalière' },
+        { key: 'hourly_rental', label: 'Location horaire' },
       ],
     },
   },
@@ -109,36 +108,71 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'towels',
-          label: 'Towels',
+          key: 'private_access',
+          label: 'Accès privé/sécurisé',
         },
         {
-          key: 'bathroom',
-          label: 'Bathroom',
+          key: 'disabled_access',
+          label: 'Accès mobilité réduite',
         },
         {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
+          key: 'ev_charging',
+          label: 'Chargeur véhicule électrique',
         },
         {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
+          key: 'concierge',
+          label: 'Concierge',
         },
         {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
+          key: 'video_surveillance',
+          label: 'Vidéosurveillance',
+        },
+      ],
+    },
+  }, 
+    {
+    id: 'days_available',
+    label: 'Jours de disponibilité',
+    type: 'SelectMultipleFilter',
+    group: 'secondary',
+    queryParamNames: ['pub_days_available'],
+    config: {
+      // Optional modes: 'has_all', 'has_any'
+      // https://www.sharetribe.com/api-reference/marketplace.html#extended-data-filtering
+      searchMode: 'has_all',
+
+      // "key" is the option you see in Flex Console.
+      // "label" is set here for this web app's UI only.
+      // Note: label is not added through the translation files
+      // to make filter customizations a bit easier.
+      options: [
+        {
+          key: 'monday',
+          label: 'Lundi',
         },
         {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
+          key: 'tuesday',
+          label: 'Mardi',
         },
         {
-          key: 'barbeque',
-          label: 'Barbeque',
+          key: 'wednesday',
+          label: 'Mercredi',
         },
         {
-          key: 'own_food_allowed',
-          label: 'Own food allowed',
+          key: 'thursday',
+          label: 'Jeudi',
+        },
+        {
+          key: 'Friday',
+          label: 'Vendredi',
+        },
+                {
+          key: 'saturday',
+          label: 'Samedi',
+        },
+        {
+          key: 'Sunday',
+          label: 'Dimanche',
         },
       ],
     },
