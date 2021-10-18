@@ -4,6 +4,8 @@ import classNames from 'classnames';
 
 import config from '../../config';
 import IconLogo from './IconLogo';
+import MobileLogoImage from './pealot-logo.png';
+import DesktopLogoImage from './pealot-logo.png';
 import LogoImage from './pealot-logo.png';
 import css from './Logo.module.css';
 
