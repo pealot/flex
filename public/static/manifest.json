@@ -1,20 +1,79 @@
-{
-  "name": "Saunatime",
-  "short_name": "Saunatime",
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#C0392B",
-  "background_color": "#FFFFFF",
+{"pages":
+  [
+    {
+  "short_name": "pealot",
+  "name": "pealot",
   "icons": [
     {
-      "src": "/static/icons/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-black-on-white-small.png?v=1621080068",
+      "type": "image/png",
+      "sizes": "192x192"
     },
     {
-      "src": "/static/icons/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-black-on-white-small.png?v=1621080068",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://pealot.com/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "https://pealot.com/",
+  "theme_color": "#C37E08",
+  "shortcuts": [
+    {
+      "name": "Proposer ma place",
+      "short_name": "Proposer ma place",
+      "description": "Proposer votre place et économiser de l'argent",
+      "url": "https://pealot.com/pages/proposer-ma-place",
+      "icons": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-rent-out-rounded.png?v=1621163645",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Places de parc disponibles",
+      "short_name": "Places disponibles",
+      "description": "Rechercher une place de parc",
+      "url": "https://pealot.com/collections/places-de-parc",
+      "icons": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-available-parking-rounded.png?v=1621082009",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Modifier ma place",
+      "short_name": "Modifier ma place",
+      "description": "Modifier votre place de parc, les jours et horaires de disponibilités ou retirez-la",
+      "url": "https://pealot.com/pages/modifier-ma-place",
+      "icons": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-edit-rounded.png?v=1621082010",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "description": "Rentabilisez votre place de parc et économiser de l'argent avec Pealot",
+  "screenshots": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/Proposer-ma-place.jpg?v=1621076535",
+      "type": "image/png",
+      "sizes": "1080x2160"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/Places-de-parc.jpg?v=1621076534",
+      "type": "image/png",
+      "sizes": "1080x2160"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/Modifier-ma-place.jpg?v=1621076534",
+      "type": "image/png",
+      "sizes": "1080x2160"
     }
   ]
-}
+}]}
