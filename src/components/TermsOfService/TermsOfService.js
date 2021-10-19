@@ -322,7 +322,7 @@ const TermsOfService = props => {
 
       <p align="justify"> 
         La soumission de vos renseignements personnels sur notre boutique est régie par 
-        notre Politique de Confidentialité. Cliquez ici pour consulter notre Politique de Confidentialité.
+        notre <a href="/privacy-policy">Politique de Confidentialité</a>.
       </p>
 
       <h2>ARTICLE 11 – ERREURS, INEXACTITUDES ET OMISSIONS</h2>
