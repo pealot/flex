@@ -469,7 +469,7 @@ const TermsOfService = props => {
       </p>
 
       <p align="justify"> 
-        Si nous jugeons, à notre seule discrétion, que vous échouez, ou si nous soupçonnons que vous avez été incapable de vous conformer aux modalités de ces Conditions Générales de Service et d’Utilisation, nous pourrions aussi résilier cet accord à tout moment sans vous prévenir à l’avance et vous resterez responsable de toutes les sommes redevables jusqu’à la date de résiliation (celle-ci étant incluse), et"/"ou nous pourrions vous refuser l’accès à nos Services (ou à toute partie de ceux-ci).
+        Si nous jugeons, à notre seule discrétion, que vous échouez, ou si nous soupçonnons que vous avez été incapable de vous conformer aux modalités de ces Conditions Générales de Service et d’Utilisation, nous pourrions aussi résilier cet accord à tout moment sans vous prévenir à l’avance et vous resterez responsable de toutes les sommes redevables jusqu’à la date de résiliation (celle-ci étant incluse), et/ou nous pourrions vous refuser l’accès à nos Services (ou à toute partie de ceux-ci).
       </p>
 
       <h2>ARTICLE 17 – INTÉGRALITÉ DE L’ACCORD</h2>
