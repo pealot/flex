@@ -224,7 +224,8 @@ const PrivacyPolicy = props => {
         d’informations, contactez notre agent responsable des normes de confidentialité à contact@pealot.com.
       </p>
       
-
+      </p>
+      
     </div>
   );
 };
