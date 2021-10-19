@@ -11,7 +11,7 @@ const TermsOfService = props => {
   // prettier-ignore
   return (
     <div className={classes}>
-      <p className={css.lastUpdated}>Dernère mise à jour : 19 octobre 2021
+      <p className={css.lastUpdated}>Dernière mise à jour : 19 octobre 2021
       </p>
 
       <p>VUE D’ENSEMBLE
