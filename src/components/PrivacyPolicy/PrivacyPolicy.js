@@ -11,7 +11,8 @@ const PrivacyPolicy = props => {
   // prettier-ignore
   return (
     <div className={classes}>
-      <p className={css.lastUpdated}>Last updated: October 30, 2017</p>
+      <p className={css.lastUpdated}>Dernère mise à jour : 19 octobre 2021
+      </p>
 
       <p align="justify">
         Cette politique de confidentialité décrit comment vos informations personnelles sont 
@@ -56,8 +57,6 @@ const PrivacyPolicy = props => {
         explicite, ou nous vous donnerons la possibilité de refuser.
       </p>
 
-      <br>
-
       <p align="justify">
         Comment puis-je retirer mon consentement ?
       </p>
@@ -85,8 +84,6 @@ const PrivacyPolicy = props => {
         données de Sharetribe, et dans l’application générale de Sharetribe. Vos données 
         sont conservées sur un serveur sécurisé protégé par un pare-feu.
       </p>
-
-      <br>
 
       <p align="justify">
       Paiement :
@@ -160,8 +157,6 @@ const PrivacyPolicy = props => {
       Conditions Générales de Service et d’Utilisation de notre site web.
       </p>
 
-      <br>
-
       <p align="justify">
       Liens :
       </p>
@@ -212,7 +207,7 @@ const PrivacyPolicy = props => {
         continuer à vous vendre des produits et services.
       </p>
       
-      <br>
+      <br></br>
 
       <p align="justify">
       QUESTIONS ET COORDONNÉES
@@ -224,8 +219,7 @@ const PrivacyPolicy = props => {
         d’informations, contactez notre agent responsable des normes de confidentialité à contact@pealot.com.
       </p>
       
-      </p>
-      
+
     </div>
   );
 };
