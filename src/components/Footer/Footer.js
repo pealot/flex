@@ -187,6 +187,11 @@ const Footer = props => {
                       <FormattedMessage id="Footer.privacyPolicy" />
                     </NamedLink>
                   </li>
+                  <li>
+                    <NamedLink name="ReimbursmentPage" className={css.legalLink}>
+                      <FormattedMessage id="Footer.reimbursment" />
+                    </NamedLink>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -201,6 +206,9 @@ const Footer = props => {
               </NamedLink>
               <NamedLink name="TermsOfServicePage" className={css.terms}>
                 <FormattedMessage id="Footer.terms" />
+              </NamedLink>
+              <NamedLink name="ReimbursmentPage" className={css.reimbursment}>
+                <FormattedMessage id="Footer.reimbursment" />
               </NamedLink>
             </div>
           </div>
