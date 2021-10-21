@@ -979,6 +979,7 @@
   "TermsOfServicePage.privacyTabTitle": "Privacy Policy",
   "TermsOfServicePage.schemaTitle": "Terms of Service | {siteTitle}",
   "TermsOfServicePage.tosTabTitle": "Terms of Service",
+  "TermsOfServicePage.reimbursmentTabTitle": "Reimbursment",
   "Topbar.genericError": "Oh no, something went wrong. Please check your network connection and try again.",
   "Topbar.logoIcon": "Go to homepage",
   "Topbar.menuIcon": "Open menu",
