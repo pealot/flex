@@ -304,6 +304,7 @@
   "Footer.privacy": "Privacy",
   "Footer.privacyPolicy": "Privacy policy",
 
+  "Footer.reimbursment": "Reimbursment",
   "Footer.searchLausanne": "Lausanne",
   "Footer.searchMontreux": "Montreux",
   "Footer.searchBern": "Bern",
@@ -677,6 +678,7 @@
   "PrivacyPolicyPage.privacyTabTitle": "Privacy Policy",
   "PrivacyPolicyPage.schemaTitle": "Privacy Policy | {siteTitle}",
   "PrivacyPolicyPage.tosTabTitle": "Terms of Service",
+  "PrivacyPolicyPage.reimbursmentTabTitle": "Reimbursment",
   "ProfilePage.desktopHeading": "Hello, I'm {name}.",
   "ProfilePage.editProfileLinkDesktop": "Edit profile",
   "ProfilePage.editProfileLinkMobile": "Edit",
@@ -711,6 +713,13 @@
   "ProfileSettingsPage.heading": "Profile settings",
   "ProfileSettingsPage.title": "Profile settings",
   "ProfileSettingsPage.viewProfileLink": "View your profile",
+  
+  "ReimbursmentPage.heading": "Reimbursment",
+  "ReimbursmentPage.privacyTabTitle": "Privacy Policy",
+  "ReimbursmentPage.schemaTitle": "Reimbursment | {siteTitle}",
+  "ReimbursmentPage.tosTabTitle": "Terms of Service",
+  "ReimbursmentPage.reimbursmentTabTitle": "Reimbursment",
+
   "ResponsiveImage.noImage": "No image",
   "ReviewForm.reviewContentLabel": "Leave a review",
   "ReviewForm.reviewContentPlaceholder": "Describe your experience…",

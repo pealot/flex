@@ -269,6 +269,7 @@
   "Footer.privacy": "Datenschutz",
   "Footer.privacyPolicy": "Datenschutz",
 
+  "Footer.reimbursment": "Erstattung",  
   "Footer.searchLausanne": "Lausanne",
   "Footer.searchMontreux": "Montreux",
   "Footer.searchBern": "Bern",
@@ -666,6 +667,13 @@
   "ProfileSettingsPage.heading": "Profileinstellungen",
   "ProfileSettingsPage.title": "Profileinstellungen",
   "ProfileSettingsPage.viewProfileLink": "Vorschau",
+  
+  "ReimbursmentPage.heading": "Erstattung",
+  "ReimbursmentPage.privacyTabTitle": "Datenschutzbestimmungen",
+  "ReimbursmentPage.schemaTitle": "Erstattung | {siteTitle}",
+  "ReimbursmentPage.tosTabTitle": "AGB",
+  "ReimbursmentPage.reimbursmentTabTitle": "Erstattung",
+
   "ResponsiveImage.noImage": "Kein Bild",
   "ReviewForm.reviewContentLabel": "Bewertung abgeben",
   "ReviewForm.reviewContentPlaceholder": "Deine Erfahrung beschreiben…",
@@ -854,6 +862,7 @@
   "TermsOfServicePage.privacyTabTitle": "Datenschutzbestimmungen",
   "TermsOfServicePage.schemaTitle": "Allgemeine Geschätfsbedingungen | {siteTitle}",
   "TermsOfServicePage.tosTabTitle": "AGB",
+  "TermsOfServicePage.reimbursmentTabTitle": "Erstattung",
   "Topbar.genericError": "Hoppla, etwas ist schiefgelaufen. Bitte prüfe deine Netzwerkverbindung und erneut versuchen.",
   "Topbar.logoIcon": "Zur Homepage gehen",
   "Topbar.menuIcon": "Menu öffnen",
