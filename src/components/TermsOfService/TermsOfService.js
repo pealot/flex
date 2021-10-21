@@ -68,7 +68,7 @@ const TermsOfService = props => {
 
 
 
-      <h2>ARTICLE 1 – CONDITIONS D’UTILISATION DE NOTRE BOUTIQUE EN LIGNE</h2>
+      <h2>ARTICLE 1 – CONDITIONS D’UTILISATION DE NOTRE SITE</h2>
       <p align="justify"> 
         En acceptant ces Conditions Générales de Service et d’Utilisation, vous déclarez que vous 
         avez atteint l’âge de la majorité dans votre pays, État ou province de résidence, et que 
