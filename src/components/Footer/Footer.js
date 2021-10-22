@@ -201,10 +201,10 @@ const Footer = props => {
               <FormattedMessage id="Footer.copyright" />
             </NamedLink>
             <div className={css.tosAndPrivacyMobile}>
-              <NamedLink name="PrivacyPolicyPage" className={css.privacy}>
+              <NamedLink name="PrivacyPolicyPage" className={css.termsAndprivacy}>
                 <FormattedMessage id="Footer.privacy" />
               </NamedLink>
-              <NamedLink name="TermsOfServicePage" className={css.terms}>
+              <NamedLink name="TermsOfServicePage" className={css.termsAndprivacy}>
                 <FormattedMessage id="Footer.terms" />
               </NamedLink>
               <NamedLink name="ReimbursmentPage" className={css.reimbursment}>

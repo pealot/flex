@@ -259,7 +259,8 @@
 }
 
 .legalLink,
-.privacy,
+.termsAndprivacy,
+.reimbursment,
 .terms {
   /* Font */
   @apply --marketplaceTinyFontStyles;
@@ -326,6 +327,6 @@
   flex-basis: 172px;
 }
 
-.privacy {
+.termsAndprivacy {
   margin-right: 24px;
 }
