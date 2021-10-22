@@ -61,11 +61,6 @@ const TermsOfService = props => {
       une acception de votre part de ces modifications.
       </p>
 
-      <p align="justify"> 
-      Notre boutique est hébergée sur Sharetribe Inc. Ils nous fournissent la plate-forme e-commerce qui 
-      nous permet de vous vendre nos produits et services.
-      </p>
-
 
 
       <h2>ARTICLE 1 – CONDITIONS D’UTILISATION DE NOTRE SITE</h2>
