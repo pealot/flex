@@ -25,7 +25,7 @@ const AboutPage = () => {
       schema={{
         '@context': 'http://schema.org',
         '@type': 'AboutPage',
-        description: 'About Saunatime',
+        description: 'About Pealot',
         name: 'About page',
       }}
     >
@@ -35,54 +35,51 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Experience the unique Finnish home sauna.</h1>
-          <img className={css.coverImage} src={image} alt="My first ice cream." />
+          <h1 className={css.pageTitle}>Profitez d'une expérience de stationnement unique.</h1>
+          <img className={css.coverImage} src={image} alt="Louez votre place" />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Did you know that Finland has 3.2 million saunas - almost one sauna per person!</p>
+              <p>Saviez-vous qu'en Suisse, une place inoccupée en journée représente un manque à 
+              gagner moyen de CHF 1'000.- par an ?</p>
             </div>
 
             <div className={css.contentMain}>
-              <h2>
-                Most of the Finnish saunas are located at the homes of individuals - indeed, most
-                people in Finland live in an apartment with sauna in it. In addition, lots of people
-                have lakeside summer cottages, which also typically come with a separate sauna
-                building near the waterfront.
+              <h2 align="justify">
+                La plupart des places de parc inoccupées se trouve au domicile de pendulaires se 
+                déplaçant avec leur véhicule sur leur lieu de travail. En effet, une grande partie
+                des résidents suisses utilise une voiture pour aller travailler et libère donc
+                des places de parc, souvent privées, à leur domicile.
               </h2>
 
-              <p>
-                To truly experience a Finnish sauna, you need to look beyond the public saunas, and
-                instead visit a real home or cottage sauna. Saunatime makes this possible for
-                everyone. All our saunas are owned by individuals willing to let tourists and other
-                curious visitors to enter their sacred spaces.
+              <p align="justify">
+                Pour profiter d'une réelle expérience de stationnement en Suisse, 
+                voyez plus loin que les places de parc publiques traditionnelles en réservant une
+                place de parc privée aux créneaux qui vous conviennent. Pealot vous permet désormais
+                de trouver la place idéale à moindre coût. Toutes les places de parc réservables sur Pealot
+                sont des places privées, inaccessibles via les solutions de stationnement traditionnelles.
               </p>
 
-              <h3 className={css.subtitle}>Are you a sauna owner?</h3>
-
-              <p>
-                Saunatime offers you a good way to earn some extra cash! If you're not using your
-                sauna every evening, why not rent it to other people while it's free. And even if
-                you are using your sauna every evening (we understand, it's so good), why not invite
-                other people to join you when the sauna is already warm! A shared sauna experience
-                is often a more fulfilling one.
+              <p align="justify">
+                <a href="/s?address=Suisse&bounds=47.16940648%2C8.136689%2C45.740402%2C5.87110585">
+                Voir les places de parc</a>
               </p>
 
-              <h3 id="contact" className={css.subtitle}>
-                Create your own marketplace like Saunatime
-              </h3>
-              <p>
-                Saunatime is brought to you by the good folks at{' '}
-                <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Would you like
-                to create your own marketplace platform a bit like Saunatime? Or perhaps a mobile
-                app? With Sharetribe it's really easy. If you have a marketplace idea in mind, do
-                get in touch!
+              <h3 className={css.subtitle}>Votre place est souvent inoccupée ?</h3>
+
+              <p align="justify">
+                Pealot vous permet de gagner de l'argent grâce à votre place ! Si votre place de parc 
+                est libre la journée, la nuit, pendant vos vacances ou même pendant quelques heures 
+                seulement, pourquoi ne pas la louer à quelqu'un qui en aurait besoin ? De cette manière, 
+                vous réduisez considérablement vos dépenses de stationnement, et contribuez à la réduction 
+                des bouchons et de la pollution en ville en évitant à d'autres utilisateurs de chercher une 
+                place pendant de longues minutes.
               </p>
-              <p>
-                You can also checkout our{' '}
-                <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
-                <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
+            
+               <p align="justify">
+                <a href="/l/new">Proposez votre place dès maintenant !</a>
               </p>
+
             </div>
           </div>
         </LayoutWrapperMain>
