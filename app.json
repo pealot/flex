@@ -2,7 +2,7 @@
   "name": "Pealot",
   "description": "Pealot - Le parking à sa juste valeur",
   "keywords": ["node", "react"],
-  "repository": "https://github.com/pealot/st-flex/",
+  "repository": "https://github.com/pealot/flex/",
   "env": {
     "REACT_APP_MAPBOX_ACCESS_TOKEN": {
       "description": "See: Integrating to map providers documentation https://github.com/sharetribe/ftw-daily/blob/master/docs/map-providers.md"
