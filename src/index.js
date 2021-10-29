@@ -19,9 +19,6 @@ import 'raf/polyfill';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import { tokenize } from './node_modules/postcss-safe-parser/node_modules/postcss/lib';
-
 import { loadableReady } from '@loadable/component';
 import { createInstance, types as sdkTypes } from './util/sdkLoader';
 import { ClientApp, renderApp } from './app';
