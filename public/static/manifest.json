@@ -5,30 +5,30 @@
   "name": "pealot",
   "icons": [
     {
-      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-black-on-white-small.png?v=1621080068",
+      "src": "/icons/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-black-on-white-small.png?v=1621080068",
+      "src": "/icons/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "/",
   "background_color": "#FFFFFF",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
-  "theme_color": "#C37E08",
+  "theme_color": "#C68F2C",
   "shortcuts": [
     {
       "name": "Proposer ma place",
       "short_name": "Proposer ma place",
       "description": "Proposer votre place et économiser de l'argent",
-      "url": "https://pealot.com/pages/proposer-ma-place",
+      "url": "/l/new",
       "icons": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-rent-out-rounded.png?v=1621163645",
+          "src": "/icons/pealot-icon-rent-out-rounded.png",
           "sizes": "192x192"
         }
       ]
@@ -37,10 +37,10 @@
       "name": "Places de parc disponibles",
       "short_name": "Places disponibles",
       "description": "Rechercher une place de parc",
-      "url": "https://pealot.com/collections/places-de-parc",
+      "url": "/s?address=Suisse&bounds=47.16940648%2C8.136689%2C45.740402%2C5.87110585",
       "icons": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-available-parking-rounded.png?v=1621082009",
+          "src": "/icons/pealot-icon-available-parking-rounded.png",
           "sizes": "192x192"
         }
       ]
@@ -49,10 +49,10 @@
       "name": "Modifier ma place",
       "short_name": "Modifier ma place",
       "description": "Modifier votre place de parc, les jours et horaires de disponibilités ou retirez-la",
-      "url": "https://pealot.com/pages/modifier-ma-place",
+      "url": "/listings",
       "icons": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/pealot-icon-edit-rounded.png?v=1621082010",
+          "src": "/icons/pealot-icon-edit-rounded.png",
           "sizes": "192x192"
         }
       ]
