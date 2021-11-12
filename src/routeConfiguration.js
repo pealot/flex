@@ -38,6 +38,9 @@ const StripePayoutPage = loadable(() => import(/* webpackChunkName: "StripePayou
 const TermsOfServicePage = loadable(() => import(/* webpackChunkName: "TermsOfServicePage" */ './containers/TermsOfServicePage/TermsOfServicePage'));
 const TransactionPage = loadable(() => import(/* webpackChunkName: "TransactionPage" */ './containers/TransactionPage/TransactionPage'));
 
+const ReimbursmentPage = loadable(() => import(/* webpackChunkName: "ReimbursmentPage" */ './containers/ReimbursmentPage/ReimbursmentPage'));
+
+
 // Styleguide helps you to review current components and develop new ones
 const StyleguidePage = loadable(() => import(/* webpackChunkName: "StyleguidePage" */ './containers/StyleguidePage/StyleguidePage'));
 
@@ -303,6 +306,11 @@ const routeConfiguration = () => {
       path: '/privacy-policy',
       name: 'PrivacyPolicyPage',
       component: PrivacyPolicyPage,
+    },
+    {
+      path: '/reimbursment',
+      name: 'ReimbursmentPage',
+      component: ReimbursmentPage,
     },
     {
       path: '/styleguide',
