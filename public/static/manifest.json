@@ -1,5 +1,3 @@
-{"pages":
-  [
     {
   "short_name": "pealot",
   "name": "pealot",
@@ -15,10 +13,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "pealot.herokuapp.com/",
+  "start_url": "/",
   "background_color": "#FFFFFF",
   "display": "standalone",
-  "scope": "pealot.herokuapp.com/",
+  "scope": "/",
   "theme_color": "#C68F2C",
   "shortcuts": [
     {
@@ -76,4 +74,4 @@
       "sizes": "1080x2160"
     }
   ]
-}]}
+}
