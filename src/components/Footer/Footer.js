@@ -200,7 +200,7 @@ const Footer = props => {
             <NamedLink name="LandingPage" className={css.organizationCopyrightMobile}>
               <FormattedMessage id="Footer.copyright" />
             </NamedLink>
-            </div>
+            
             <div className={css.tosAndPrivacyMobile}>
               <NamedLink name="PrivacyPolicyPage" className={css.termsAndprivacy}>
                 <FormattedMessage id="Footer.privacy" />
@@ -211,7 +211,7 @@ const Footer = props => {
               <NamedLink name="ReimbursmentPage" className={css.reimbursment}>
                 <FormattedMessage id="Footer.reimbursment" />
               </NamedLink>
-            
+              </div>
           </div>
         </div>
       </div>
