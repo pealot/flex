@@ -150,7 +150,7 @@
   order: 2;
   flex-basis: 165px;
   margin-right: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 
   @media (--viewportMedium) {
     padding-top: 2px;
@@ -198,7 +198,7 @@
   order: 3;
   flex-basis: 165px;
   margin-right: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 
   @media (--viewportMedium) {
     padding-top: 2px;
@@ -291,6 +291,7 @@
 
   /* Dimensions */
   height: 60px;
+  width:  80px;
   padding: 0 24px 18px 24px;
 
   /* Layout */
@@ -312,10 +313,11 @@
   transition: var(--transitionStyleButton);
 
   /* Tell parent component how much space this one prefers */
-  flex-basis: 172px;
+  flex-basis: 120px;
 
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 48px;
+  margin-bottom: 0px;
+
 
   &:hover {
     color: var(--marketplaceColor);
@@ -324,6 +326,8 @@
 }
 
 .tosAndPrivacyMobile {
+  margin-left: -40.03px;
+  margin-bottom: 48px;
   flex-basis: 40px;
 }
 
