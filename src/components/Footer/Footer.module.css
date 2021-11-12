@@ -180,7 +180,7 @@
   transition: var(--transitionStyleButton);
 
   margin-top: 0;
-  margin-bottom: 72px;
+  margin-bottom: 60px;
 
   &:hover {
     color: var(--marketplaceColor);
@@ -198,7 +198,7 @@
   order: 3;
   flex-basis: 80px;
   margin-right: 24px;
-  margin-bottom: 72px;
+  margin-bottom: 60px;
 
   @media (--viewportMedium) {
     padding-top: 2px;
@@ -241,7 +241,7 @@
 
 .legalMatters {
   /* Get extra space from parent element (which is using flexbox) */
-  flex-grow: 1;
+  flex-grow: 0.56;
 
   /* Layout */
   display: flex;
@@ -315,6 +315,7 @@
   /* Tell parent component how much space this one prefers */
   flex-basis: 40px;
   margin-top: 24px;
+  min-width: 60px;
   
 
   &:hover {
@@ -324,8 +325,8 @@
 }
 
 .tosAndPrivacyMobile {
-  margin-left: -40.03px;
-  margin-bottom: 60px;
+  margin-left: -60px;
+  margin-bottom: 48px;
   flex-basis: 40px;
 }
 
