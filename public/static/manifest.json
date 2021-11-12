@@ -15,10 +15,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "pealot.herokuapp.com/",
   "background_color": "#FFFFFF",
   "display": "standalone",
-  "scope": "/",
+  "scope": "pealot.herokuapp.com/",
   "theme_color": "#C68F2C",
   "shortcuts": [
     {
