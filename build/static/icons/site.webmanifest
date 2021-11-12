@@ -1,0 +1,79 @@
+{"pages":
+  [
+    {
+  "short_name": "pealot",
+  "name": "pealot",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#C68F2C",
+  "shortcuts": [
+    {
+      "name": "Proposer ma place",
+      "short_name": "Proposer ma place",
+      "description": "Proposer votre place et économiser de l'argent",
+      "url": "/l/new",
+      "icons": [
+        {
+          "src": "/icons/pealot-icon-rent-out-rounded.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Places de parc disponibles",
+      "short_name": "Places disponibles",
+      "description": "Rechercher une place de parc",
+      "url": "/s?address=Suisse&bounds=47.16940648%2C8.136689%2C45.740402%2C5.87110585",
+      "icons": [
+        {
+          "src": "/icons/pealot-icon-available-parking-rounded.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Modifier ma place",
+      "short_name": "Modifier ma place",
+      "description": "Modifier votre place de parc, les jours et horaires de disponibilités ou retirez-la",
+      "url": "/listings",
+      "icons": [
+        {
+          "src": "/icons/pealot-icon-edit-rounded.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "description": "Rentabilisez votre place de parc et économiser de l'argent avec Pealot",
+  "screenshots": [
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/Proposer-ma-place.jpg?v=1621076535",
+      "type": "image/png",
+      "sizes": "1080x2160"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/Places-de-parc.jpg?v=1621076534",
+      "type": "image/png",
+      "sizes": "1080x2160"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/0552/2404/1624/files/Modifier-ma-place.jpg?v=1621076534",
+      "type": "image/png",
+      "sizes": "1080x2160"
+    }
+  ]
+}]}
