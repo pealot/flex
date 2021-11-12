@@ -46,7 +46,7 @@ export const filters = [
   },
   {
     id: 'price',
-    label: 'Price',
+    label: 'Prix',
     type: 'PriceFilter',
     group: 'primary',
     // Note: PriceFilter is fixed filter,
@@ -62,7 +62,7 @@ export const filters = [
   },
   {
     id: 'keyword',
-    label: 'Keyword',
+    label: 'Mot-clé',
     type: 'KeywordFilter',
     group: 'primary',
     // Note: KeywordFilter is fixed filter,
@@ -195,14 +195,14 @@ export const sortConfig = {
   conflictingFilters: ['keyword'],
 
   options: [
-    { key: 'createdAt', label: 'Newest' },
-    { key: '-createdAt', label: 'Oldest' },
-    { key: '-price', label: 'Lowest price' },
-    { key: 'price', label: 'Highest price' },
+    { key: 'createdAt', label: 'Plus récent' },
+    { key: '-createdAt', label: 'Plus ancien' },
+    { key: '-price', label: 'Moins cher' },
+    { key: 'price', label: 'Plus cher' },
 
     // The relevance is only used for keyword search, but the
     // parameter isn't sent to the Marketplace API. The key is purely
     // for handling the internal state of the sorting dropdown.
-    { key: 'relevance', label: 'Relevance', longLabel: 'Relevance (Keyword search)' },
+    { key: 'relevance', label: 'Pertinence', longLabel: 'Pertinence (mot-clé)' },
   ],
 };
