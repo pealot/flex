@@ -291,7 +291,7 @@
 
   /* Dimensions */
   height: 60px;
-  width:  80px;
+  width:  160px;
   padding: 0 24px 24px 24px;
 
   /* Layout */
@@ -314,9 +314,8 @@
 
   /* Tell parent component how much space this one prefers */
   flex-basis: 40px;
-
   margin-top: 24px;
-
+  
 
   &:hover {
     color: var(--marketplaceColor);
@@ -331,5 +330,5 @@
 }
 
 .termsAndprivacy {
-  margin-right: 24px;
+  margin-right: 14px;
 }
