@@ -3,12 +3,12 @@
   "name": "pealot",
   "icons": [
     {
-      "src": "/icons/android-chrome-192x192.png",
+      "src": "/static/icons/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icons/android-chrome-512x512.png",
+      "src": "/static/icons/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -26,7 +26,7 @@
       "url": "/l/new",
       "icons": [
         {
-          "src": "/icons/pealot-icon-rent-out-rounded.png",
+          "src": "/static/icons/pealot-icon-rent-out-rounded.png",
           "sizes": "192x192"
         }
       ]
@@ -38,7 +38,7 @@
       "url": "/s?address=Suisse&bounds=47.16940648%2C8.136689%2C45.740402%2C5.87110585",
       "icons": [
         {
-          "src": "/icons/pealot-icon-available-parking-rounded.png",
+          "src": "/static/icons/pealot-icon-available-parking-rounded.png",
           "sizes": "192x192"
         }
       ]
@@ -50,7 +50,7 @@
       "url": "/listings",
       "icons": [
         {
-          "src": "/icons/pealot-icon-edit-rounded.png",
+          "src": "/static/icons/pealot-icon-edit-rounded.png",
           "sizes": "192x192"
         }
       ]
