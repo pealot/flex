@@ -315,7 +315,7 @@
   /* Tell parent component how much space this one prefers */
   flex-basis: 40px;
 
-  margin-top: 48px;
+  margin-top: 24px;
 
 
   &:hover {
@@ -325,8 +325,7 @@
 }
 
 .tosAndPrivacyMobile {
-  margin-left: 0px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   flex-basis: 40px;
 }
 
