@@ -53,17 +53,17 @@ const SectionLocations = props => {
         {locationLink(
           <FormattedMessage id="Location.lausanne" />,
           lausanneImage,
-          '?address=Lausanne%2C%20Switzerland&bounds=46.591708%2C6.720815%2C46.504313%2C6.560625'
+          '?address=Lausanne%2C%20Suisse&bounds=46.591708%2C6.720815%2C46.504313%2C6.560625'
         )}
         {locationLink(
           <FormattedMessage id="Location.geneva" />,
           genevaImage,
-          '?address=Geneva%2C%20Switzerland&bounds=46.24713292%2C6.1835059%2C46.17425426%2C6.09201075'
+          '?address=Geneva%2C%20Suisse&bounds=46.24713292%2C6.1835059%2C46.17425426%2C6.09201075'
         )}
         {locationLink(
           <FormattedMessage id="Location.bern" />,
           bernImage,
-          '?address=Bern%2C%20Switzerland&bounds=47.03198956%2C7.55109842%2C46.87388179%2C7.34986642'
+          '?address=Bern%2C%20Suisse&bounds=47.03198956%2C7.55109842%2C46.87388179%2C7.34986642'
         )}
       </div>
     </div>
