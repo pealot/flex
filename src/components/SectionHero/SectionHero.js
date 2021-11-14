@@ -30,6 +30,14 @@ const SectionHero = props => {
         >
           <FormattedMessage id="SectionHero.browseButton" />
         </NamedLink>
+
+        <a
+          href='/l/new'
+          className={css.heroButton}
+        >
+          <FormattedMessage id="SectionHero.RentoutButton" />
+        </a>
+
       </div>
     </div>
   );
