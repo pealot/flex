@@ -75,7 +75,7 @@ export const filters = [
   },
   {
     id: 'category',
-    label: 'Category',
+    label: 'Catégorie',
     type: 'SelectSingleFilter',
     group: 'secondary',
     queryParamNames: ['pub_category'],
@@ -93,7 +93,7 @@ export const filters = [
   },
   {
     id: 'amenities',
-    label: 'Amenities',
+    label: 'Options',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_amenities'],
