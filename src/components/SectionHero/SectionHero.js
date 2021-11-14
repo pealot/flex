@@ -31,10 +31,12 @@ const SectionHero = props => {
           <FormattedMessage id="SectionHero.browseButton" />
         </NamedLink>
 
+
+
         <NamedLink
           name="NewListingPage"
           
-          className={css.heroButton}
+          className={css.heroButton2}
         >
           <FormattedMessage id="SectionHero.RentoutButton" />
         </NamedLink>

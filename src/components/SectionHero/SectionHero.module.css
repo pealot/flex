@@ -109,3 +109,28 @@
   }
 
 }
+
+.heroButton2 {
+  @apply --marketplaceButtonStyles;
+  composes: animation;
+
+  animation-delay: 0.95s;
+
+
+  @media (--viewportXSmall) {
+    display: block;
+    width: 100%;
+    margin-right: 64px;
+    margin-bottom: 24px;
+    padding: 20px;
+  }
+
+  @media (--viewportSmall) {
+    display: inline;
+    width: 240px;
+    margin-right: 32px;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+
+}
