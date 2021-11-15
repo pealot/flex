@@ -6,6 +6,7 @@ import {
   LayoutWrapperFooter,
   Footer,
 } from '../../components';
+import { FormattedMessage } from '../../util/reactIntl';
 
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
@@ -22,9 +23,47 @@ const FAQPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.mainWrapper}>
-          <h1>Frequently Asked Questions</h1>
+
+          <h1>
+          <FormattedMessage id="FAQ.Title" />
+          </h1>
+
+        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
+        href="/">
+        <span>
+        <FormattedMessage id="FAQ.Bookings" />
+        </span>
+        </a>
+
+        <br></br>
+
+        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
+        href="/">
+        <span>
+        <FormattedMessage id="FAQ.Payments" />
+        </span>
+        </a>
+
+        <br></br>
+
+        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
+        href="/">
+        <span>
+        <FormattedMessage id="FAQ.MyParking" />
+        </span>
+        </a>
+
+        <br></br>
+
+        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
+        href="/">
+        <span>
+        <FormattedMessage id="FAQ.MyAccount" />
+        </span>
+        </a>
 
           <div>
+            
             <h3>Question 1?</h3>
             <p>Answer: Lorem ipsum</p>
           </div>
@@ -39,3 +78,4 @@ const FAQPage = () => {
 };
 
 export default FAQPage;
+
