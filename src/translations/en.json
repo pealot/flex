@@ -273,6 +273,13 @@
   "EnquiryForm.messageRequired": "A message is required",
   "EnquiryForm.sendEnquiryError": "Whoops, something went wrong. Please try again.",
   "EnquiryForm.submitButtonText": "Send enquiry",
+
+  "FAQ.Title": "Frequently asked questions",
+  "FAQ.Bookings": "Bookings",
+  "FAQ.Payments": "Payments",
+  "FAQ.MyParking": "My parking",
+  "FAQ.MyAccount": "My account",
+
   "FieldBoolean.no": "No",
   "FieldBoolean.yes": "Yes",
   "FieldDateInput.clearDate": "Clear Date",

@@ -238,6 +238,13 @@
   "EnquiryForm.messageRequired": "Eine Nachricht wird benötigt",
   "EnquiryForm.sendEnquiryError": "Ups! Etwas ist schiefgelaufen. Bitte erneut versuchen.",
   "EnquiryForm.submitButtonText": "Abfrage schicken",
+
+  "FAQ.Title": "Frequently asked questions",
+  "FAQ.Bookings": "Bookings",
+  "FAQ.Payments": "Payments",
+  "FAQ.MyParking": "My parking",
+  "FAQ.MyAccount": "My account",
+
   "FieldBoolean.no": "Nein",
   "FieldBoolean.yes": "Ja",
   "FieldDateInput.clearDate": "Datum löschen",

@@ -273,6 +273,13 @@
   "EnquiryForm.messageRequired": "Un message est requis.",
   "EnquiryForm.sendEnquiryError": "Oups, quelque chose s'est mal passé. Veuillez essayer de nouveau.",
   "EnquiryForm.submitButtonText": "Envoyer la demande de réservation",
+
+  "FAQ.Title": "Foire aux questions",
+  "FAQ.Bookings": "Réservations",
+  "FAQ.Payments": "Paiements",
+  "FAQ.MyParking": "Ma place",
+  "FAQ.MyAccount": "Mon compte",
+
   "FieldBoolean.no": "Non",
   "FieldBoolean.yes": "Oui",
   "FieldDateInput.clearDate": "Effacer la date",
