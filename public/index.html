@@ -13,16 +13,6 @@
 
     <link rel="manifest" href="/static/manifest.json">
 
-<location path="/service-worker.js">
-    <system.webServer>
-        <httpProtocol>
-            <customHeaders>
-                <add name="Service-Worker-Allowed" value="/" />
-            </customHeaders>
-        </httpProtocol>
-    </system.webServer>
-</location>
-
     <script>
       if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
