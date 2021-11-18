@@ -39,10 +39,11 @@
   position: relative;
 }
 
-.heroButtonBookings {
+.heroButton {
   @apply --marketplaceButtonStyles;
+  color: #FFFFFF;
+  background-color: var(--marketplaceColor);
   composes: animation;
-  border-radius: 35px;
 
   animation-delay: 0.6s;
 
@@ -54,55 +55,7 @@
     margin-bottom: 24px;
     padding: 20px;
   }
-}
 
-  .heroButtonPayment {
-  @apply --marketplaceButtonStyles;
-  composes: animation;
-  border-radius: 35px;
+ 
 
-  animation-delay: 0.8s;
-
-
-  @media (--viewportXSmall) {
-    display: block;
-    width: 100%;
-    margin-right: 64px;
-    margin-bottom: 24px;
-    padding: 20px;
-  }
-}
-
-  .heroButtonMyParking {
-  @apply --marketplaceButtonStyles;
-  composes: animation;
-  border-radius: 35px;
-
-  animation-delay: 1.0s;
-
-
-  @media (--viewportXSmall) {
-    display: block;
-    width: 100%;
-    margin-right: 64px;
-    margin-bottom: 24px;
-    padding: 20px;
-  }
-}
-
-  .heroButtonMyAccount {
-  @apply --marketplaceButtonStyles;
-  composes: animation;
-  border-radius: 35px;
-
-  animation-delay: 1.2s;
-
-
-  @media (--viewportXSmall) {
-    display: block;
-    width: 100%;
-    margin-right: 64px;
-    margin-bottom: 24px;
-    padding: 20px;
-  }
 }

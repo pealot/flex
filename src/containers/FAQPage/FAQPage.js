@@ -4,6 +4,7 @@ import {
   LayoutWrapperTopbar,
   LayoutWrapperMain,
   LayoutWrapperFooter,
+  NamedLink,
   Footer,
 } from '../../components';
 import { FormattedMessage } from '../../util/reactIntl';
@@ -24,49 +25,42 @@ const FAQPage = () => {
 
         <LayoutWrapperMain className={css.mainWrapper}>
 
-          <h1>
+
+
+          <h1 align="center">
           <FormattedMessage id="FAQ.Title" />
           </h1>
 
-        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
-        href="/">
+        <NamedLink name="FAQBookingPage" className={css.heroButtonBookings}>
         <span>
         <FormattedMessage id="FAQ.Bookings" />
         </span>
-        </a>
+        </NamedLink>
 
         <br></br>
 
-        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
-        href="/">
+        <NamedLink name="FAQPaymentPage" className={css.heroButtonPayment}>
         <span>
-        <FormattedMessage id="FAQ.Payments" />
+        <FormattedMessage id="FAQ.Payment" />
         </span>
-        </a>
+        </NamedLink>
 
         <br></br>
 
-        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
-        href="/">
+        <NamedLink name="FAQMyParkingPage" className={css.heroButtonMyParking}>
         <span>
         <FormattedMessage id="FAQ.MyParking" />
         </span>
-        </a>
+        </NamedLink>
 
         <br></br>
 
-        <a class="SectionHero_heroButton__1Am0q SectionHero_animation__3or2Z" 
-        href="/">
+        <NamedLink name="FAQMyAccountPage" className={css.heroButtonMyAccount}>
         <span>
         <FormattedMessage id="FAQ.MyAccount" />
         </span>
-        </a>
+        </NamedLink>
 
-          <div>
-            
-            <h3>Question 1?</h3>
-            <p>Answer: Lorem ipsum</p>
-          </div>
         </LayoutWrapperMain>
 
         <LayoutWrapperFooter>
