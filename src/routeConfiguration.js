@@ -16,6 +16,31 @@ const FAQPage = loadable(() =>
   )
 );
 
+const FAQBookingPage = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPage" */ './containers/FAQBookingPage/FAQBookingPage'
+  )
+);
+
+const FAQPaymentPage = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQPaymentPage" */ './containers/FAQPaymentPage/FAQPaymentPage'
+  )
+);
+
+const FAQMyParkingPage = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyParkingPage" */ './containers/FAQMyParkingPage/FAQMyParkingPage'
+  )
+);
+
+const FAQMyAccountPage = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyAccountPage" */ './containers/FAQMyAccountPage/FAQMyAccountPage'
+  )
+);
+
+
 const AboutPage = loadable(() => import(/* webpackChunkName: "AboutPage" */ './containers/AboutPage/AboutPage'));
 const AuthenticationPage = loadable(() => import(/* webpackChunkName: "AuthenticationPage" */ './containers/AuthenticationPage/AuthenticationPage'));
 const CheckoutPage = loadable(() => import(/* webpackChunkName: "CheckoutPage" */ './containers/CheckoutPage/CheckoutPage'));
@@ -71,6 +96,26 @@ const routeConfiguration = () => {
       path: '/faq',
       name: 'FAQPage',
       component: FAQPage,
+    },
+    {
+      path: '/faq/bookings',
+      name: 'FAQBookingPage',
+      component: FAQBookingPage,
+    },
+    {
+      path: '/faq/payment',
+      name: 'FAQPaymentPage',
+      component: FAQPaymentPage,
+    },
+    {
+      path: '/faq/myparking',
+      name: 'FAQMyParkingPage',
+      component: FAQMyParkingPage,
+    },
+    {
+      path: '/faq/myaccount',
+      name: 'FAQMyAccountPage',
+      component: FAQMyAccountPage,
     },
     {
       path: '/',
