@@ -276,9 +276,10 @@
 
   "FAQ.Title": "Foire aux questions",
   "FAQ.Bookings": "Réservations",
-  "FAQ.Payments": "Paiements",
+  "FAQ.Payment": "Paiement",
   "FAQ.MyParking": "Ma place",
   "FAQ.MyAccount": "Mon compte",
+  "FAQ.MyParkingSpace": "Ma place de parc",
 
   "FieldBoolean.no": "Non",
   "FieldBoolean.yes": "Oui",
