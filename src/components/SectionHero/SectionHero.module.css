@@ -93,6 +93,7 @@
 
 
   @media (--viewportXSmall) {
+    border-radius: 35px;
     display: block;
     width: 100%;
     margin-right: 64px;
@@ -118,6 +119,7 @@
 
 
   @media (--viewportXSmall) {
+    border-radius: 35px;
     display: block;
     width: 100%;
     margin-right: 64px;
