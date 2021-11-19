@@ -22,6 +22,42 @@ const FAQBookingPage = loadable(() =>
   )
 );
 
+const FAQBookingPageQ1 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPageQ1" */ './containers/FAQBookingPageQ1/FAQBookingPageQ1'
+  )
+);
+
+const FAQBookingPageQ2 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPageQ2" */ './containers/FAQBookingPageQ2/FAQBookingPageQ2'
+  )
+);
+
+const FAQBookingPageQ3 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPageQ3" */ './containers/FAQBookingPageQ3/FAQBookingPageQ3'
+  )
+);
+
+const FAQBookingPageQ4 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPageQ4" */ './containers/FAQBookingPageQ4/FAQBookingPageQ4'
+  )
+);
+
+const FAQBookingPageQ5 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPageQ5" */ './containers/FAQBookingPageQ5/FAQBookingPageQ5'
+  )
+);
+
+const FAQBookingPageQ6 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQBookingPageQ6" */ './containers/FAQBookingPageQ6/FAQBookingPageQ6'
+  )
+);
+
 const FAQPaymentPage = loadable(() =>
   import(
     /* webpackChunkName: "FAQPaymentPage" */ './containers/FAQPaymentPage/FAQPaymentPage'
@@ -97,26 +133,70 @@ const routeConfiguration = () => {
       name: 'FAQPage',
       component: FAQPage,
     },
+
+// FAQ pages relative to "Booking"
     {
       path: '/faq/bookings',
       name: 'FAQBookingPage',
       component: FAQBookingPage,
     },
     {
+      path: '/faq/bookings/book-a-space',
+      name: 'FAQBookingPageQ1',
+      component: FAQBookingPageQ1,
+    },
+    {
+      path: '/faq/bookings/early-booking',
+      name: 'FAQBookingPageQ2',
+      component: FAQBookingPageQ2,
+    },
+    {
+      path: '/faq/bookings/edit-booking',
+      name: 'FAQBookingPageQ3',
+      component: FAQBookingPageQ3,
+    },
+    {
+      path: '/faq/bookings/cancel-booking',
+      name: 'FAQBookingPageQ4',
+      component: FAQBookingPageQ4,
+    },
+    {
+      path: '/faq/bookings/secured-access',
+      name: 'FAQBookingPageQ5',
+      component: FAQBookingPageQ5,
+    },
+    {
+      path: '/faq/bookings/contact-host',
+      name: 'FAQBookingPageQ6',
+      component: FAQBookingPageQ6,
+    },
+
+
+// FAQ pages relative to "Payment"    
+    {
       path: '/faq/payment',
       name: 'FAQPaymentPage',
       component: FAQPaymentPage,
     },
+
+
+// FAQ pages relative to "My Parking"       
     {
       path: '/faq/myparking',
       name: 'FAQMyParkingPage',
       component: FAQMyParkingPage,
     },
+
+
+// FAQ pages relative to "My Account"    
     {
       path: '/faq/myaccount',
       name: 'FAQMyAccountPage',
       component: FAQMyAccountPage,
     },
+
+
+
     {
       path: '/',
       name: 'LandingPage',

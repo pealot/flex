@@ -279,6 +279,15 @@
   "FAQ.Payment": "Paiement",
   "FAQ.MyParking": "Ma place",
   "FAQ.MyAccount": "Mon compte",
+
+  "FAQ.Bookings.Q1": "Comment réserver une place ?",
+  "FAQ.Bookings.Q1.p1": "Pour réserver une place de parc avec Pealot, il vous suffit de sélectionner la place de parc qui vous convient sur la page ",
+  "FAQ.Bookings.Q1.p1.linktext": "Réserver une place",
+  "FAQ.Bookings.Q1.p2": "Lorsque vous êtes sur la page de la place de parc que vous souhaitez réserver, vous pouvez sélectionner la période de location durant laquelle vous souhaitez réserver cette place.",
+  "FAQ.Bookings.Q1.p3": "Vous devrez ensuite sélectionner les jours durant lesquels vous souhaitez louer cette place (les jours non affichés ne sont pas disponibles à la location). Le tarif de votre location variera en fonction des jours sélectionnés.",
+  "FAQ.Bookings.Q1.p4": "Une fois les jours de location sélectionnés, il vous suffira de renseigner la plaque d'immatriculation du véhicule qui stationnera sur la place puis de cliquer sur 'Réserver'.",
+  "FAQ.Bookings.Q1.p5": "En cliquant sur 'Réserver', vous serez redirigé vers votre panier afin de vérifier les détails de réservation. Une fois que vous vous êtes assuré que les détails de votre réservation sont corrects, cliquer sur 'Payer' afin de régler et ainsi confirmer votre réservation. Après le paiement, vous recevrez un email de confirmation vous notifiant que votre réservation a bien été validée.",
+
   "FAQ.MyParkingSpace": "Ma place de parc",
 
   "FieldBoolean.no": "Non",
