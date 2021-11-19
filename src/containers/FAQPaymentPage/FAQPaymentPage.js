@@ -5,6 +5,7 @@ import {
   LayoutWrapperMain,
   LayoutWrapperFooter,
   Footer,
+  NamedLink,
 } from '../../components';
 import { FormattedMessage } from '../../util/reactIntl';
 
@@ -32,7 +33,7 @@ const FAQPaymentPage = () => {
 
 <ul>
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-paiements-moyens-paiement" 
+<h3 align="center"><a href="/pages/faq-paiements-moyens-paiement" 
 title="Quels moyens de paiement puis-je utiliser ?">
 Quels moyens de paiement puis-je utiliser ?
 </a></h3>
@@ -40,7 +41,7 @@ Quels moyens de paiement puis-je utiliser ?
 <hr/>
 
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-paiements-paiement-mois-suivants" 
+<h3 align="center"><a href="/pages/faq-paiements-paiement-mois-suivants" 
 title="Je viens d'effectuer une réservation, quand devrai-je payer les mois suivants ?">
 J'ai réservé une place pour plusieurs mois, quand devrai-je payer les mois suivants ?
 </a></h3>
@@ -48,7 +49,7 @@ J'ai réservé une place pour plusieurs mois, quand devrai-je payer les mois sui
 <hr/>
 
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-paiements-code-promo" 
+<h3 align="center"><a href="/pages/faq-paiements-code-promo" 
 title="Comment bénéficier d'un code promo ?">
 J'ai reçu un code promo, comment puis-je l'utiliser ?
 </a></h3>
@@ -56,7 +57,7 @@ J'ai reçu un code promo, comment puis-je l'utiliser ?
 <hr/>
 
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-paiements-reservation-annulee-remboursement" 
+<h3 align="center"><a href="/pages/faq-paiements-reservation-annulee-remboursement" 
 title="J'ai annulé ma réservation mais n'ai pas été remboursé totalement">
 Pourquoi n'ai-je pas été remboursé totalement malgré l'annulation de ma réservation ?
 </a></h3>

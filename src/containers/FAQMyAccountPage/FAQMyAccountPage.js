@@ -5,6 +5,7 @@ import {
   LayoutWrapperMain,
   LayoutWrapperFooter,
   Footer,
+  NamedLink,
 } from '../../components';
 import { FormattedMessage } from '../../util/reactIntl';
 
@@ -32,7 +33,7 @@ const FAQMyAccountPage = () => {
 
 <ul>
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-mon-compte-reservations-actives" 
+<h3 align="center"><a href="/pages/faq-mon-compte-reservations-actives" 
 title="Je souhaite consulter les détails d'une réservation en cours. Comment faire ?">
 Je souhaite consulter les détails d'une réservation en cours. Comment faire ?
 </a></h3>
@@ -40,7 +41,7 @@ Je souhaite consulter les détails d'une réservation en cours. Comment faire ?
 <hr/>
 
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-mon-compte-reservations-passees" 
+<h3 align="center"><a href="/pages/faq-mon-compte-reservations-passees" 
 title="Puis-je consulter les détails d'une réservation passée ?">
 Puis-je consulter les détails d'une réservation passée ?
 </a></h3>
@@ -48,7 +49,7 @@ Puis-je consulter les détails d'une réservation passée ?
 <li>
 <hr/>
 
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-mon-compte-changer-email-paiement" 
+<h3 align="center"><a href="/pages/faq-mon-compte-changer-email-paiement" 
 title="Je souhaite recevoir les liens de paiement sur une autre adresse email. Comment faire ?">
 Je souhaite recevoir les liens de paiement sur une autre adresse email. Comment faire ?
 </a></h3>
@@ -56,7 +57,7 @@ Je souhaite recevoir les liens de paiement sur une autre adresse email. Comment 
 <hr/>
 
 <li>
-<h3 align="center"><a href="https://pealot.myshopify.com/pages/faq-mon-compte-mot-de-passe-oublie" 
+<h3 align="center"><a href="/pages/faq-mon-compte-mot-de-passe-oublie" 
 title="J'ai oublié mon mot de passe, que dois-je faire ?">
 J'ai oublié mon mot de passe, que dois-je faire ?
 </a></h3>

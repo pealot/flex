@@ -5,6 +5,7 @@ import {
   LayoutWrapperMain,
   LayoutWrapperFooter,
   Footer,
+  NamedLink,
 } from '../../components';
 import { FormattedMessage } from '../../util/reactIntl';
 
@@ -32,10 +33,10 @@ const FAQBookingPage = () => {
 
 <ul>
 <li>
-<h3 align="center"><a href="/pages/faq-reservations-reserver-place" 
-title="Comment réserver une place de parc ?">
-Comment réserver une place de parc ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQBookingPageQ1">
+<FormattedMessage id="FAQ.Bookings.Q1" />
+</NamedLink></h3>
 </li>
 <hr/>
 

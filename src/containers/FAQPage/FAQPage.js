@@ -37,7 +37,7 @@ const FAQPage = () => {
         </span>
         </NamedLink>
 
-        <br></br>
+        <br/>
 
         <NamedLink name="FAQPaymentPage" className={css.heroButtonPayment}>
         <span>
@@ -45,7 +45,7 @@ const FAQPage = () => {
         </span>
         </NamedLink>
 
-        <br></br>
+        <br/>
 
         <NamedLink name="FAQMyParkingPage" className={css.heroButtonMyParking}>
         <span>
@@ -53,7 +53,7 @@ const FAQPage = () => {
         </span>
         </NamedLink>
 
-        <br></br>
+        <br/>
 
         <NamedLink name="FAQMyAccountPage" className={css.heroButtonMyAccount}>
         <span>
