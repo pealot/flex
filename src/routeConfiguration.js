@@ -64,15 +64,93 @@ const FAQPaymentPage = loadable(() =>
   )
 );
 
+const FAQPaymentPageQ1 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQPaymentPageQ1" */ './containers/FAQPaymentPageQ1/FAQPaymentPageQ1'
+  )
+);
+
+const FAQPaymentPageQ2 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQPaymentPageQ2" */ './containers/FAQPaymentPageQ2/FAQPaymentPageQ2'
+  )
+);
+
+const FAQPaymentPageQ3 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQPaymentPageQ3" */ './containers/FAQPaymentPageQ3/FAQPaymentPageQ3'
+  )
+);
+
+const FAQPaymentPageQ4 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQPaymentPageQ4" */ './containers/FAQPaymentPageQ4/FAQPaymentPageQ4'
+  )
+);
+
 const FAQMyParkingPage = loadable(() =>
   import(
     /* webpackChunkName: "FAQMyParkingPage" */ './containers/FAQMyParkingPage/FAQMyParkingPage'
   )
 );
 
+const FAQMyParkingPageQ1 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyParkingPageQ1" */ './containers/FAQMyParkingPageQ1/FAQMyParkingPageQ1'
+  )
+);
+
+const FAQMyParkingPageQ2 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyParkingPageQ2" */ './containers/FAQMyParkingPageQ2/FAQMyParkingPageQ2'
+  )
+);
+
+const FAQMyParkingPageQ3 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyParkingPageQ3" */ './containers/FAQMyParkingPageQ3/FAQMyParkingPageQ3'
+  )
+);
+
+const FAQMyParkingPageQ4 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyParkingPageQ4" */ './containers/FAQMyParkingPageQ4/FAQMyParkingPageQ4'
+  )
+);
+
+const FAQMyParkingPageQ5 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyParkingPageQ5" */ './containers/FAQMyParkingPageQ5/FAQMyParkingPageQ5'
+  )
+);
+
 const FAQMyAccountPage = loadable(() =>
   import(
     /* webpackChunkName: "FAQMyAccountPage" */ './containers/FAQMyAccountPage/FAQMyAccountPage'
+  )
+);
+
+const FAQMyAccountPageQ1 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyAccountPageQ1" */ './containers/FAQMyAccountPageQ1/FAQMyAccountPageQ1'
+  )
+);
+
+const FAQMyAccountPageQ2 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyAccountPageQ2" */ './containers/FAQMyAccountPageQ2/FAQMyAccountPageQ2'
+  )
+);
+
+const FAQMyAccountPageQ3 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyAccountPageQ3" */ './containers/FAQMyAccountPageQ3/FAQMyAccountPageQ3'
+  )
+);
+
+const FAQMyAccountPageQ4 = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQMyAccountPageQ4" */ './containers/FAQMyAccountPageQ4/FAQMyAccountPageQ4'
   )
 );
 
@@ -178,13 +256,57 @@ const routeConfiguration = () => {
       name: 'FAQPaymentPage',
       component: FAQPaymentPage,
     },
-
+    {
+      path: '/faq/payment/payment-methods',
+      name: 'FAQPaymentPageQ1',
+      component: FAQPaymentPageQ1,
+    },
+    {
+      path: '/faq/payment/long-term-booking',
+      name: 'FAQPaymentPageQ2',
+      component: FAQPaymentPageQ2,
+    },
+    {
+      path: '/faq/payment/discount-code',
+      name: 'FAQPaymentPageQ3',
+      component: FAQPaymentPageQ3,
+    },
+    {
+      path: '/faq/payment/partial-reimbursment',
+      name: 'FAQPaymentPageQ4',
+      component: FAQPaymentPageQ4,
+    },
 
 // FAQ pages relative to "My Parking"       
     {
       path: '/faq/myparking',
       name: 'FAQMyParkingPage',
       component: FAQMyParkingPage,
+    },
+    {
+      path: '/faq/myparking/edit-ad',
+      name: 'FAQMyParkingPageQ1',
+      component: FAQMyParkingPageQ1,
+    },
+    {
+      path: '/faq/myparking/rent-out',
+      name: 'FAQMyParkingPageQ2',
+      component: FAQMyParkingPageQ2,
+    },
+    {
+      path: '/faq/myparking/sublease',
+      name: 'FAQMyParkingPageQ3',
+      component: FAQMyParkingPageQ3,
+    },
+    {
+      path: '/faq/myparking/provide-code-key-badge',
+      name: 'FAQMyParkingPageQ4',
+      component: FAQMyParkingPageQ4,
+    },
+    {
+      path: '/faq/myparking/time-flexibility',
+      name: 'FAQMyParkingPageQ5',
+      component: FAQMyParkingPageQ5,
     },
 
 
@@ -193,6 +315,26 @@ const routeConfiguration = () => {
       path: '/faq/myaccount',
       name: 'FAQMyAccountPage',
       component: FAQMyAccountPage,
+    },
+    {
+      path: '/faq/myaccount/booking-details',
+      name: 'FAQMyAccountPageQ1',
+      component: FAQMyAccountPageQ1,
+    },
+    {
+      path: '/faq/myaccount/past-booking-details',
+      name: 'FAQMyAccountPageQ2',
+      component: FAQMyAccountPageQ2,
+    },
+    {
+      path: '/faq/myaccount/edit-email',
+      name: 'FAQMyAccountPageQ3',
+      component: FAQMyAccountPageQ3,
+    },
+    {
+      path: '/faq/myaccount/reset-password',
+      name: 'FAQMyAccountPageQ4',
+      component: FAQMyAccountPageQ4,
     },
 
 
