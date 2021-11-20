@@ -12,7 +12,7 @@ import { FormattedMessage } from '../../util/reactIntl';
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 
-import css from './FAQMyParkingPageQ4.module.css';
+import css from './FAQMyParkingPageQ5.module.css';
 
 const FAQMyParkingPageQ4 = () => {
   // prettier-ignore
