@@ -5,6 +5,7 @@ import {
   LayoutWrapperMain,
   LayoutWrapperFooter,
   Footer,
+  NamedLink,
 } from '../../components';
 import { FormattedMessage } from '../../util/reactIntl';
 
@@ -33,29 +34,19 @@ const FAQBookingPageQ6 = () => {
           <div>
 
           <h3 align="center">
-          Comment réserver une place de parc ?
+          <FormattedMessage id="FAQ.Bookings.Q6" />
           </h3>
+          
           <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q1.p1" />
-          <a href="/s?address=Suisse&bounds=47.16940648%2C8.136689%2C45.740402%2C5.87110585" title="Places disponibles">
-          <FormattedMessage id="FAQ.Bookings.Q1.p1.link" />
-          </a>.
+          <FormattedMessage id="FAQ.Bookings.Q6.p1" />
           </p>
 
           <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q1.p2" />
-          </p>
-
-          <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q1.p3" />
-          </p>
-          
-          <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q1.p4" />
-          </p>
-          
-          <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q1.p5" />
+          <FormattedMessage id="FAQ.Bookings.Q6.p2a" />
+          <NamedLink name="InboxBasePage">
+          <FormattedMessage id="FAQ.Bookings.Q6.p2.linktext" />
+          </NamedLink>
+          <FormattedMessage id="FAQ.Bookings.Q6.p2b" />
           </p>
 
           </div>

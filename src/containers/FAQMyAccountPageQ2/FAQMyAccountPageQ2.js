@@ -12,9 +12,9 @@ import { FormattedMessage } from '../../util/reactIntl';
 import StaticPage from '../../containers/StaticPage/StaticPage';
 import TopbarContainer from '../../containers/TopbarContainer/TopbarContainer';
 
-import css from './FAQBookingPageQ2.module.css';
+import css from './FAQMyAccountPageQ2.module.css';
 
-const FAQBookingPageQ2 = () => {
+const FAQMyAccountPageQ2 = () => {
   // prettier-ignore
   return (
     <StaticPage>
@@ -28,21 +28,21 @@ const FAQBookingPageQ2 = () => {
 
 
           <h1 align="center">
-          <FormattedMessage id="FAQ.Bookings" />
+          <FormattedMessage id="FAQ.MyAccount" />
           </h1>
 
           <div>
 
           <h3 align="center">
-          <FormattedMessage id="FAQ.Bookings.Q2" />
+          <FormattedMessage id="FAQ.MyAccount.Q2" />
           </h3>
           
           <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q2.p1" />
-          </p>
-
-          <p align="justify">
-          <FormattedMessage id="FAQ.Bookings.Q2.p2" />
+          <FormattedMessage id="FAQ.MyAccount.Q2.p1a" />
+          <NamedLink name="AccountSettingsPage">
+          <FormattedMessage id="FAQ.MyAccount.Q2.p1.linktext" />
+          </NamedLink>
+          <FormattedMessage id="FAQ.MyAccount.Q2.p1b" />
           </p>
 
           </div>
@@ -58,5 +58,5 @@ const FAQBookingPageQ2 = () => {
   );
 };
 
-export default FAQBookingPageQ2;
+export default FAQMyAccountPageQ2;
 

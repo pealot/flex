@@ -41,42 +41,42 @@ const FAQBookingPage = () => {
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-reservations-delai-reservation" 
-title="Délai avant réservation ?">
-Combien de temps à l'avance puis-je réserver une place de parc ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQBookingPageQ2">
+<FormattedMessage id="FAQ.Bookings.Q2" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-reservations-modifier-reservation" 
-title="Comment modifier ma réservation ?">
-Puis-je modifier ma réservation ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQBookingPageQ3">
+<FormattedMessage id="FAQ.Bookings.Q3" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-reservations-annuler-reservation" 
-title="Puis-je annuler ma réservation ?">
-Puis-je annuler ma réservation ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQBookingPageQ4">
+<FormattedMessage id="FAQ.Bookings.Q4" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-reservations-acces-place-securisee" 
-title="Comment accéder à une place sécurisée ?">
-La place que j'ai réservée nécessite un badge, une clé ou un code. Comment faire pour y accéder ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQBookingPageQ5">
+<FormattedMessage id="FAQ.Bookings.Q5" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-reservations-contact-hote" 
-title="Comment contacter la personne qui me loue la place ?">
-Comment contacter la personne qui me loue la place ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQBookingPageQ6">
+<FormattedMessage id="FAQ.Bookings.Q6" />
+</NamedLink></h3>
 </li>
 
 </ul>

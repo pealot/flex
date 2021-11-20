@@ -36,6 +36,7 @@ const FAQBookingPageQ1 = () => {
           <h3 align="center">
           <FormattedMessage id="FAQ.Bookings.Q1" />
           </h3>
+          
           <p align="justify">
           <FormattedMessage id="FAQ.Bookings.Q1.p1" />
           <NamedLink name="SearchPage">

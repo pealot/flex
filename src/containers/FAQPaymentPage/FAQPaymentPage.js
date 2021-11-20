@@ -33,35 +33,36 @@ const FAQPaymentPage = () => {
 
 <ul>
 <li>
-<h3 align="center"><a href="/pages/faq-paiements-moyens-paiement" 
-title="Quels moyens de paiement puis-je utiliser ?">
-Quels moyens de paiement puis-je utiliser ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQPaymentPageQ1">
+<FormattedMessage id="FAQ.Payment.Q1" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-paiements-paiement-mois-suivants" 
-title="Je viens d'effectuer une réservation, quand devrai-je payer les mois suivants ?">
-J'ai réservé une place pour plusieurs mois, quand devrai-je payer les mois suivants ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQPaymentPageQ2">
+<FormattedMessage id="FAQ.Payment.Q2" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-paiements-code-promo" 
-title="Comment bénéficier d'un code promo ?">
-J'ai reçu un code promo, comment puis-je l'utiliser ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQPaymentPageQ3">
+<FormattedMessage id="FAQ.Payment.Q3" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-paiements-reservation-annulee-remboursement" 
-title="J'ai annulé ma réservation mais n'ai pas été remboursé totalement">
-Pourquoi n'ai-je pas été remboursé totalement malgré l'annulation de ma réservation ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQPaymentPageQ4">
+<FormattedMessage id="FAQ.Payment.Q4" />
+</NamedLink></h3>
 </li>
+
 
 </ul>
 

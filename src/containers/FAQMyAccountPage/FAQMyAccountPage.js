@@ -33,35 +33,37 @@ const FAQMyAccountPage = () => {
 
 <ul>
 <li>
-<h3 align="center"><a href="/pages/faq-mon-compte-reservations-actives" 
-title="Je souhaite consulter les détails d'une réservation en cours. Comment faire ?">
-Je souhaite consulter les détails d'une réservation en cours. Comment faire ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQMyAccountPageQ1">
+<FormattedMessage id="FAQ.MyAccount.Q1" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-mon-compte-reservations-passees" 
-title="Puis-je consulter les détails d'une réservation passée ?">
-Puis-je consulter les détails d'une réservation passée ?
-</a></h3>
-</li>
-<li>
-<hr/>
-
-<h3 align="center"><a href="/pages/faq-mon-compte-changer-email-paiement" 
-title="Je souhaite recevoir les liens de paiement sur une autre adresse email. Comment faire ?">
-Je souhaite recevoir les liens de paiement sur une autre adresse email. Comment faire ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQMyAccountPageQ2">
+<FormattedMessage id="FAQ.MyAccount.Q2" />
+</NamedLink></h3>
 </li>
 <hr/>
 
 <li>
-<h3 align="center"><a href="/pages/faq-mon-compte-mot-de-passe-oublie" 
-title="J'ai oublié mon mot de passe, que dois-je faire ?">
-J'ai oublié mon mot de passe, que dois-je faire ?
-</a></h3>
+<h3 align="center">
+<NamedLink name="FAQMyAccountPageQ3">
+<FormattedMessage id="FAQ.MyAccount.Q3" />
+</NamedLink></h3>
 </li>
+<hr/>
+
+<li>
+<h3 align="center">
+<NamedLink name="FAQMyAccountPageQ4">
+<FormattedMessage id="FAQ.MyAccount.Q4" />
+</NamedLink></h3>
+</li>
+
+
 </ul>
 
 
